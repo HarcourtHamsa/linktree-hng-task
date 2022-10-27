@@ -1,0 +1,29 @@
+.footer {
+  height: fit-content;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.footer .inner {
+  width: 100%;
+  padding: 2em 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+}
+
+.footer .inner p {
+  color: #667085;
+}
+
+@media (min-width: 860px) {
+  .footer .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+}

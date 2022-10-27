@@ -1,0 +1,47 @@
+.header {
+  height: fit-content;
+  padding: 5vh 0;
+  /* background-color: red; */
+}
+
+.header .icons {
+  width: fit-content;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header .icons .arrow_icon {
+  display: none;
+}
+
+@media (min-width: 840px) {
+  .header .icons .arrow_icon {
+    display: block;
+  }
+
+  .header .icons .menu_icon {
+    display: none;
+  }
+}
+
+.user_info {
+  width: fit-content;
+  margin: auto;
+}
+
+.user_info [id="slack"] {
+  display: none;
+}
+
+.user_info [id="twitter"] {
+  color: #101828;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.user_info .profile_photo {
+  width: fit-content;
+  margin: auto;
+}
