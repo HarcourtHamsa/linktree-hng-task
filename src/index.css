@@ -12,3 +12,8 @@ body {
 * {
   font-family: "Inter";
 }
+
+.container {
+  max-width: 80vw;
+  margin: auto;
+}
