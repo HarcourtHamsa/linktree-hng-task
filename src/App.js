@@ -34,6 +34,11 @@ const LINKS = [
     id: "book__design",
     label: "Design Books",
   },
+  {
+    href: "/contact",
+    id: "contact",
+    label: "Contact Me",
+  },
 ];
 
 function App() {
