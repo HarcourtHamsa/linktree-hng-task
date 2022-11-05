@@ -1,0 +1,24 @@
+.input_container label {
+  display: block;
+}
+
+.input_container input {
+  padding: 10px;
+  height: 44px;
+  outline: 0;
+  border: 0;
+  border: 1px solid #d0d5dd;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.input_container input::placeholder {
+  color: #667085;
+}
+
+.input_container input:focus {
+  border: 1px solid #1570efed;
+}

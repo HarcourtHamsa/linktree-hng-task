@@ -17,3 +17,7 @@ body {
   max-width: 80vw;
   margin: auto;
 }
+
+.text-gray {
+  color: #475467;
+}

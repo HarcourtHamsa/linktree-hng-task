@@ -1,0 +1,9 @@
+.checkbox input {
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+}
+
+.checkbox label {
+  color: #475467;
+  margin-left: 10px;
+}

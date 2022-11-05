@@ -1,0 +1,40 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.inner {
+  margin: 4em auto;
+}
+
+form {
+  margin-top: 3em;
+}
+
+.page [class="container"] {
+  width: 100%;
+}
+
+.form_group {
+  margin-bottom: 1em;
+}
+
+.form_flex {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+@media (min-width: 720px) {
+  .inner {
+    width: 720px;
+  }
+
+  .form_flex {
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+}
